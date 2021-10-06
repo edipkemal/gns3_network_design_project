@@ -1,0 +1,11 @@
+Firstly, I created buildings: factory, office, and branch office. 
+I gave ip addresses for each building. 
+In factory, every floor has a switch with 12 ports, and switches connected to each other. 
+In office building, every office room has a switch and they connected to each other. 
+Factory and office buildings connected with routers. 
+At the beginning, I could not ping a pc in office from factory. 
+Then I learnt that I should do “IP route” for routers. 
+And also Ips of PCs’s should refer to gateway of routers. 
+After these solutions I successfully ping each PC(You can see in screenshots). 
+A PC in office building’s in first floor, is connected with brach office. 
+Routers with serial ports provide this connection. 
